@@ -19,6 +19,9 @@ const coursePhases = [
 ]
 
 // Write your functions here!
+ const sortCohortDesc = ourCohort => {
+    return ourCohort.sort().reverse();
+ }
 
 
 
